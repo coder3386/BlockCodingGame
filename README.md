@@ -1,6 +1,9 @@
 # BlockCodingGame
 캡스톤 디자인 1 블럭코딩게임 개발용
 
+사용 에셋 : 
+https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838?
+srsltid=AfmBOopSNEigfGPnTRoWvEhC5YvH-9yFHHMN3H1VgvpdVfL6-d5LTT4h&utm_source=chatgpt.com#content
 
 요구사항
 
