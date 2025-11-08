@@ -1,0 +1,378 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sammy" at "2025-11-08T00:33:59.1268422Z"
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-08T00:33:59Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sammy/My project (2)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56502
+-licensingIpc
+LicenseClient-sammy
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/sammy/My project (2)
+C:/Users/sammy/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4076]  Target information:
+
+Player connection [4076]  * "[IP] 192.168.0.14 [Port] 0 [Flags] 2 [Guid] 1706852196 [EditorId] 1706852196 [Version] 1048832 [Id] WindowsEditor(7,sammy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4076] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4076] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 28320, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              8594bf7472414da9b367e846793e54f5
+  Correlation Id:          43d8074f6b935296dcefa61669dfa177
+  External correlation Id: 8557698616754257790
+  Machine Id:              mGzx/MZkuk6NcB9l8e6w/xhJta0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sammy" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sammy-notifications" at "2025-11-08T00:33:59.171027Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.8f1 (c9992ac36c34)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sammy/My project (2)/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7700
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006247 seconds.
+- Loaded All Assemblies, in  0.588 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.384 seconds
+Domain Reload Profiling: 966ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (191ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (385ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569685180497-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.979 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.732 seconds
+Domain Reload Profiling: 1697ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (616ms)
+		LoadAssemblies (545ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (162ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (732ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4951 unused Assets / (2.0 MB). Loaded Objects now: 5444.
+Memory consumption went from 92.4 MB to 90.3 MB.
+Total: 10.146500 ms (FindLiveObjects: 0.565100 ms CreateObjectMapping: 0.741500 ms MarkObjects: 6.583900 ms  DeleteObjects: 2.253100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 483.765073 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/12-2x.png
+  artifactKey: Guid(785d74e266956cc46a81814c6e7745bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/12-2x.png using Guid(785d74e266956cc46a81814c6e7745bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6390b56837168c356919bea682d68868') in 0.1634718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/9-2x.png
+  artifactKey: Guid(f96859cb0e6e23941845c84b3f72c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/9-2x.png using Guid(f96859cb0e6e23941845c84b3f72c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07c60549dd193b5b4386af7dcf700b75') in 0.0092661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/1-2x.png
+  artifactKey: Guid(cb1e2fe69911bb14995196d879e91b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/1-2x.png using Guid(cb1e2fe69911bb14995196d879e91b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '486d0db144f3e576580f67828c2ca9ac') in 0.0093563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/4-2x.png
+  artifactKey: Guid(0976bccf9e3c7994093fbe1a5a6bacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/4-2x.png using Guid(0976bccf9e3c7994093fbe1a5a6bacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acd9ba809000f08b72fdb8850dc0f926') in 0.0128851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/8-2x.png
+  artifactKey: Guid(e03419312962e514b8a9e2725433e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Water Animation/2D view ( Update 1.9 )/256x256/8-2x.png using Guid(e03419312962e514b8a9e2725433e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c48b243d914bfef0df4d5cd81b35709') in 0.0103314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.012816 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/Clouds/512x512/Cloud_2.png
+  artifactKey: Guid(53e9bcf30a85ac849b8601b8740d4f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/Clouds/512x512/Cloud_2.png using Guid(53e9bcf30a85ac849b8601b8740d4f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16e5870445dbb1fba46ba1a558b05934') in 0.0206494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.413579 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/1920x1080/all/Front.png
+  artifactKey: Guid(b10241ef09ea0ef4eb9f23cfa77d3266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/1920x1080/all/Front.png using Guid(b10241ef09ea0ef4eb9f23cfa77d3266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cb7127003fa2e5531876321e5199815') in 0.0207658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/1920x1080/all/Mid.png
+  artifactKey: Guid(6b1b548d67ce21040b08e00d8bb97f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/1920x1080/all/Mid.png using Guid(6b1b548d67ce21040b08e00d8bb97f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f0c27f20c8c2e3d261c654667c9f316') in 0.0213413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.439718 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/1920x1080/background/NewBackgraound 1920x1080 (2).png
+  artifactKey: Guid(b165ec2539a23044ca486a2248259c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/1920x1080/background/NewBackgraound 1920x1080 (2).png using Guid(b165ec2539a23044ca486a2248259c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daafed81138ca75daeaedadb75e077ae') in 0.0188905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.978272 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png/2048x1536/All/Hills_2.png
+  artifactKey: Guid(6d6b4ccfa4f877d489ed08d4d8ad19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/png/2048x1536/All/Hills_2.png using Guid(6d6b4ccfa4f877d489ed08d4d8ad19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7c2d8587643ac5d93b2beebd278b07d') in 0.0373083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1088.439227 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/body-2-2x.png
+  artifactKey: Guid(6e0908da49f6f1948a14e04490bc8fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/body-2-2x.png using Guid(6e0908da49f6f1948a14e04490bc8fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '262b23762e718766bc6f0e141573c83d') in 0.0119418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020202 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/body-5-2x.png
+  artifactKey: Guid(0658a837950370947863dbdfdd1d65e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/body-5-2x.png using Guid(0658a837950370947863dbdfdd1d65e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f48bbffd2f91e971cb6ded4df2a2880') in 0.0172281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/head-2-2x.png
+  artifactKey: Guid(e0e366f19fedff74998ade2d688b791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/head-2-2x.png using Guid(e0e366f19fedff74998ade2d688b791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b99a2472bf320df637e6f13801f4afea') in 0.0087912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/head-6-2x.png
+  artifactKey: Guid(9f571eeabb06e0a4099ba27e67ba28e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/head-6-2x.png using Guid(9f571eeabb06e0a4099ba27e67ba28e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b20c1d17e7682618833661f9ad554a5e') in 0.0169248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/body-6-2x.png
+  artifactKey: Guid(8568d29b6fd7c9a41896321f03cf4bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Sliced/Sliced 1/2x/body-6-2x.png using Guid(8568d29b6fd7c9a41896321f03cf4bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d79d5bfbcc35a2c97caa706a468ef63') in 0.0176988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.202736 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/2048x1024/all/Front.png
+  artifactKey: Guid(f80b20e0fd5872140ad85fe0fe2f3724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/2048x1024/all/Front.png using Guid(f80b20e0fd5872140ad85fe0fe2f3724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32b3e94d417c20f258bf2df9cd7c477a') in 0.014326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/2048x1024/all/Mid (2).png
+  artifactKey: Guid(cefcb578291447e4ea3017aa8c45e657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.9 )/png/2048x1024/all/Mid (2).png using Guid(cefcb578291447e4ea3017aa8c45e657) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '478539d278d26764a2c6c917b5732cfb') in 0.013271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.011006 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate/2x/1-2x.png
+  artifactKey: Guid(b981cc118659b144b9169dbeebb8df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate/2x/1-2x.png using Guid(b981cc118659b144b9169dbeebb8df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a89b1de1562fa53ae4d47e34b4c273b') in 0.012363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009021 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate/2x/4-2x.png
+  artifactKey: Guid(2270d738f6b17db4c949cf7db502e29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate/2x/4-2x.png using Guid(2270d738f6b17db4c949cf7db502e29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2f7c3216614a94150428ba7e1ae0b24') in 0.0120629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate/2x/6-2x.png
+  artifactKey: Guid(40d4702c12443f446af47e384d2dba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Chests/Chest/png/Separate/2x/6-2x.png using Guid(40d4702c12443f446af47e384d2dba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9632074f7328168d892cbd98154afd9') in 0.0291903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
